@@ -1,0 +1,29 @@
+.clients-list__element {
+  flex-basis: calc((100% - 150px) / 6);
+}
+
+.clients-list__item {
+  border: 1px solid var(--social-networks-icon);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--social-networks-icon);
+
+  transition: border-color var(--time) var(--cubic),
+    color var(--time) var(--cubic);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-text-color);
+    color: var(--accent-text-color);
+    cursor: pointer;
+    transition: border-color var(--time) var(--cubic),
+      color var(--time) var(--cubic);
+  }
+}
+.logo-clients {
+  fill: currentColor;
+}

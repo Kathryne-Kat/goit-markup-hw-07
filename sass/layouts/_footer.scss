@@ -1,0 +1,121 @@
+.section-footer {
+  background-color: var(--accent-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.container.footer {
+  display: flex;
+  align-items: baseline;
+}
+.social-networks-footer {
+  margin-left: 70px;
+}
+.social-networks-footer-title {
+  margin-bottom: 20px;
+
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-color);
+}
+
+.footer-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--primary-color);
+}
+
+.logo.footer {
+  display: inline-block;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.logo .accent {
+  color: var(--primary-color);
+}
+.address-nav {
+  margin-top: 20px;
+}
+.contacts.footer > li:not(:last-child) {
+  margin-bottom: 9px;
+}
+.contacts.footer > li:not(:first-child) {
+  display: block;
+
+  color: var(--address-color);
+
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.7;
+  transition: color var(--time) var(--cubic);
+}
+
+.address {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.contacts-link-footer {
+  color: var(--address-color);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.mailing-block {
+  margin-left: 93px;
+}
+.mailing-input {
+  display: block;
+
+  width: 358px;
+  height: 50px;
+
+  border-radius: 4px;
+  font-size: 14px;
+  color: var(--primary-color);
+  font-size: 16px;
+  line-height: 1.25;
+  outline: transparent;
+
+  background-color: transparent;
+  padding-left: 16px;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 1.25;
+    /* display: flex;
+  align-items: center; */
+    letter-spacing: 0.03em;
+    outline-color: none;
+  }
+  &:focus {
+    outline: transparent;
+    border-color: var(--primary-text-color);
+    cursor: pointer;
+  }
+}
+
+.btn-footer {
+  /* width: 200px; */
+  padding: 10px 28px;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.icon-mailing {
+  fill: var(--primary-color);
+  margin-left: 10px;
+}
+.input-block {
+  display: flex;
+  align-items: center;
+}
+.mailing-input-block {
+  margin-right: 12px;
+}

@@ -1,3 +1,21 @@
-body {
-  background-color: green;
-}
+@import "./utils/vars";
+@import "./utils/visually-hidden";
+
+@import "./base/reset";
+@import "./base/common";
+
+@import "./components/container";
+@import "./components/section";
+@import "./components/btn";
+@import "./components/social";
+@import "./components/backdrop";
+@import "./components/gap-list";
+
+@import "./layouts/hero";
+@import "./layouts/header";
+@import "./layouts/feature";
+@import "./layouts/examples";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/portfolio";

@@ -1,0 +1,31 @@
+.social-networks-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.social-networks-item {
+  flex-basis: calc((100% - 30px) / 4);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--social-networks-icon);
+  transition: background-color var(--time) var(--cubic),
+    color var(--time) var(--cubic);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-text-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: background-color var(--time) var(--cubic),
+      color var(--time) var(--cubic);
+  }
+}
+
+.icon-net {
+  fill: currentColor;
+}

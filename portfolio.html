@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -26,24 +26,22 @@
         <nav class="navigation">
           <ul class="site-nav list">
             <li class="item">
-              <a href="./index.html" class="nav-link link">Студія</a>
+              <a href="./index.html" class="nav-link">Студія</a>
             </li>
             <li class="item">
-              <a href="./portfolio.html" class="nav-link link current"
-                >Портфоліо</a
-              >
+              <a href="./portfolio.html" class="nav-link current">Портфоліо</a>
             </li>
-            <li class="item"><a href="#" class="nav-link link">Контакти</a></li>
+            <li class="item"><a href="#" class="nav-link">Контакти</a></li>
           </ul>
         </nav>
         <div class="contacts header">
-          <a class="link" href="mailto:info@devstudio.com">
+          <a class="contacts-link" href="mailto:info@devstudio.com">
             <svg width="16" height="12" class="mail icon">
               <use href="./images/sprite.svg#icon-mail"></use>
             </svg>
             info@devstudio.com</a
           >
-          <a class="link" href="tel:+380961111111">
+          <a class="contacts-link" href="tel:+380961111111">
             <svg width="10" height="16" class="smartphone icon">
               <use href="./images/sprite.svg#icon-smartphone"></use>
             </svg>
@@ -286,43 +284,47 @@
                   >
                 </li>
                 <li>
-                  <a class="link" href="mailto:info@devstudio.com"
+                  <a
+                    class="contacts-link-footer link"
+                    href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
                 </li>
                 <li>
-                  <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                  <a class="contacts-link-footerlink" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
                 </li>
               </ul>
             </address>
           </div>
           <div class="social-networks-footer">
-            <h5 class="social-networks-footer-title">приєднуйтес</h5>
+            <h5 class="social-networks-footer-title">приєднуйтесь</h5>
             <div class="social-networks">
-              <ul class="social-networks-footer-list">
+              <ul class="social-networks-list">
                 <li class="social-networks link">
-                  <a class="social-networks-item-footer" href="#">
+                  <a class="social-networks-item footer-item" href="#">
                     <svg width="20" height="20" class="instagram icon-net">
                       <use href="./images/sprite.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social-networks link">
-                  <a class="social-networks-item-footer" href="#">
+                  <a class="social-networks-item footer-item" href="#">
                     <svg width="20" height="20" class="twitter icon-net">
                       <use href="./images/sprite.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social-networks link">
-                  <a class="social-networks-item-footer" href="#">
+                  <a class="social-networks-item footer-item" href="#">
                     <svg width="20" height="20" class="facebook icon-net">
                       <use href="./images/sprite.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="social-networks link">
-                  <a class="social-networks-item-footer" href="#">
+                  <a class="social-networks-item footer-item" href="#">
                     <svg width="20" height="20" class="linkedin icon-net">
                       <use href="./images/sprite.svg#icon-linkedin"></use>
                     </svg>
@@ -341,12 +343,11 @@
                 <input
                   id="mailing-input"
                   type="text"
-                  name="mailing"
                   class="mailing-input"
                   placeholder="E-mail"
                 />
               </div>
-              <button type="submit" class="button-hero footer-button">
+              <button type="submit" class="btn btn-footer">
                 Підписатися
                 <svg width="24" height="24" class="icon-mailing">
                   <use href="./images/sprite.svg#icon-send"></use>
