@@ -3,7 +3,7 @@
   background-color: var(--accent-color2);
 }
 
-.team-list__element {
+.team__item {
   flex-basis: calc((100% - 90px) / 4);
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -11,7 +11,7 @@
   border-radius: 0px 0px 4px 4px;
   align-items: center;
 }
-.team-list__name {
+.team__name {
   margin-bottom: 10px;
   color: var(--title-text-color);
 
@@ -21,12 +21,12 @@
   text-align: center;
 }
 
-.team-list__profession {
+.team__profession {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
 }
-.team-list__text {
+.team__text {
   padding-top: 30px;
   margin-bottom: 16px;
 }

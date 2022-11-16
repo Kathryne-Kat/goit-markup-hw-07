@@ -2,12 +2,12 @@
   padding-top: 0;
 }
 
-.work-item__element {
+.work__item {
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
 }
 
-.work-item__text-position {
+.work__text-position {
   width: 100%;
   padding-top: 27px;
   padding-bottom: 27px;
